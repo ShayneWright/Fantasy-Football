@@ -1,6 +1,7 @@
 /* Week 2 review data. Confirmed facts, sourced market data and analyst estimates are labeled in the UI. */
 window.WEEK_DATASETS = window.WEEK_DATASETS || {};
 window.WEEK_DATASETS[1] = window.WEEK_DATASETS[1] || window.WEEK_DATA;
+if (window.WEEK_DATASETS[1]) { window.WEEK_DATASETS[1].week = 1; window.WEEK_DATASETS[1].updatedAt = "2026-09-02T23:00:00Z"; }
 window.WEEK_DATASETS[2] = {
   "week": 2,
   "updatedAt": "2026-09-27T12:30:00Z",
